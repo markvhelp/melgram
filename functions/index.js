@@ -192,7 +192,7 @@ exports.onCreateActivityFeedItem = functions.firestore
             activityFeedItem.commentData
           }`;
           break;
-        case "like":
+        case "like":git
           body = `${activityFeedItem.username} liked your post`;
           break;
         case "follow":
